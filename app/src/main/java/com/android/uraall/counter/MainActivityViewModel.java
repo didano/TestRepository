@@ -7,13 +7,15 @@ public class MainActivityViewModel extends ViewModel {
 
     private int count = 1;
     private MutableLiveData<Integer> countLiveData = new MutableLiveData<>();
-
+    
+    //Edited on server 
     //SOme changes
     //SDSDSDS
     //sdSDSDSDs
     //Changed23232
     public void getDecreasedValue(){
         int i = 5;
+        int b = 23;
         --count;
         countLiveData.setValue(count);
     }
