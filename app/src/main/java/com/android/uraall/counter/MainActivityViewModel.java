@@ -10,7 +10,7 @@ public class MainActivityViewModel extends ViewModel {
 
     //Changed23232
     public void getDecreasedValue(){
-        int i = 2;
+        int i = 4;
         --count;
         countLiveData.setValue(count);
     }
